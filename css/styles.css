@@ -356,6 +356,7 @@
     
     .portfolio-list-item {
         flex-basis: calc((100% - 48px) / 3);
+        cursor: pointer;
         transition: box-shadow var(--transition);
     }
     .portfolio-list-item:focus,
@@ -370,8 +371,8 @@
         position: relative;
         overflow: hidden;
       }
-    .portfolio-link:hover .overlay-text,
-    .portfolio-link:focus .overlay-text {
+    .portfolio-list-item:hover .overlay-text,
+    .portfolio-list-item:focus .overlay-text {
     transform: translateY(0%);
     }
     .overlay-text {
@@ -465,6 +466,6 @@
   }
 
   .footer-social-icon {
-    fill: var(--white-color);
+    fill: var(--cloud-color);
   }
   
