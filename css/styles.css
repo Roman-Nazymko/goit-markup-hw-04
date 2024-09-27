@@ -133,6 +133,7 @@
         line-height: 1.5;
         letter-spacing: 0.03em;
         color: var(--navy-blue-color);
+        transition: color var(--transition);
     }
     .menu-link:hover,
     .menu-link:focus {
